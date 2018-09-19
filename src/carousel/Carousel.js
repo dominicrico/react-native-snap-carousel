@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
-import { Animated, Easing, FlatList, I18nManager, Platform, ScrollView, View, ViewPropTypes } from 'react-native';
+import { Animated, Easing, FlatList, I18nManager, Platform, View, ViewPropTypes } from 'react-native';
 import PropTypes from 'prop-types';
 import shallowCompare from 'react-addons-shallow-compare';
+import { ScrollView } from 'react-native-af-video-player'
+
 import {
     defaultScrollInterpolator,
     stackScrollInterpolator,
